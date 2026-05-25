@@ -7,6 +7,7 @@ function App() {
     { title: 'Pre-Ingles', url: 'https://platform.edu21-improve.com/planning', icon: '📚', color: 'var(--accent-purple)' },
     { title: 'Jóvenes Creativos', url: 'https://jovenes.tocaunavida.org/', icon: '🎨', color: 'var(--accent-pink)' },
     { title: 'Inglés', url: 'https://site3.q10.com/login?ReturnUrl=%2F&aplentId=6a3e4ee0-f9d7-4715-9c11-3e01e2fa932d', icon: '🌎', color: 'var(--accent-cyan)' },
+    { title: 'Libro Ingles', url: 'https://learn.eltngl.com/dashboard/courses', icon: '📘', color: 'var(--accent-blue)' },
     { title: 'Sian', url: 'https://sian365.com.co/', icon: '📖', color: 'var(--accent-green)' },
   ];
 
