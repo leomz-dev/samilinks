@@ -241,12 +241,58 @@
 }
 
 @media (max-width: 480px) {
+  .app-container {
+    padding: 1rem 0.5rem;
+  }
+
   .main-content {
-    padding: 2rem 1.5rem;
+    padding: 1.5rem 1.25rem;
     border-radius: 20px;
+    gap: 1.5rem;
+  }
+
+  .header {
+    gap: 1rem;
+  }
+
+  .avatar-container {
+    width: 100px;
+    height: 100px;
   }
 
   .question {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+  }
+
+  .link-btn {
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+  }
+
+  .link-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+  }
+}
+
+@media (max-height: 700px) {
+  .main-content {
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .header {
+    gap: 0.75rem;
+  }
+  .avatar-container {
+    width: 80px;
+    height: 80px;
+  }
+  .question {
+    font-size: 1.25rem;
+  }
+  .link-btn {
+    padding: 0.75rem 1rem;
   }
 }
