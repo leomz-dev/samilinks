@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import avatarSami from './assets/avatarsami.png'
 import './App.css'
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <header className="header">
           <div className="avatar-container">
             <img
-              src="/avatarsami.png"
+              src={avatarSami}
               alt="Sami"
               className="avatar"
             />
